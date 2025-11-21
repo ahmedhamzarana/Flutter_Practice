@@ -10,9 +10,13 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
-return Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text("Home Screen",style: TextStyle(fontSize: 22,color: Colors.black),),
+        child: Text(
+          "Profile Screen",
+          style: TextStyle(fontSize: 22, color: Colors.black),
+        ),
       ),
-    );  }
+    );
+  }
 }

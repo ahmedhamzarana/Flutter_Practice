@@ -126,8 +126,14 @@ class _SignScreensState extends State<SignScreens> {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => TabbarScreen()),
+                        MaterialPageRoute(
+                          builder: (context) => DashboardScreens(),
+                        ),
                       );
+                      //  Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => TabbarScreen()),
+                      // );
                     },
                     child: Text(
                       "Sign In",
