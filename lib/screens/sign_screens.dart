@@ -124,7 +124,7 @@ class _SignScreensState extends State<SignScreens> {
                       backgroundColor: Colors.purple,
                     ),
                     onPressed: () {
-                      Navigator.push(
+                      Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
                           builder: (context) => DashboardScreens(),
