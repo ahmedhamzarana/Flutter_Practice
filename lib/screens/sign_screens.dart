@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp/dashboard_screens.dart';
-import 'package:flutterapp/screens/tabbar_screen.dart';
 
 class SignScreens extends StatefulWidget {
   const SignScreens({super.key});

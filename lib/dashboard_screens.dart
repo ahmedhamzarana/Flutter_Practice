@@ -27,9 +27,9 @@ class _DashboardScreensState extends State<DashboardScreens> {
       appBar: AppBar(automaticallyImplyLeading: false),
       body: _dashboardscreens[_current],
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: AppColors.secondary_color,
-        selectedItemColor: AppColors.primary_color,
-        unselectedItemColor: AppColors.info_color,
+        backgroundColor: AppColors.secondarycolor,
+        selectedItemColor: AppColors.primarycolor,
+        unselectedItemColor: AppColors.infocolor,
         type: BottomNavigationBarType.fixed,
         currentIndex: _current,
         onTap: (index) {

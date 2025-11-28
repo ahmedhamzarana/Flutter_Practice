@@ -10,7 +10,7 @@ class TabbarScreen extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: AppColors.secondary_color,
+          backgroundColor: AppColors.secondarycolor,
           automaticallyImplyLeading: false,
           leading: IconButton(
             onPressed: () {
@@ -19,9 +19,9 @@ class TabbarScreen extends StatelessWidget {
             icon: Icon(Icons.arrow_back_ios_new, color: Colors.white),
           ),
           bottom: TabBar(tabs: [
-            Text("Chats", style: TextStyle(color: AppColors.primary_color,fontSize: 20,),),
-            Text("Status", style: TextStyle(color: AppColors.primary_color,fontSize: 20,),),
-            Text("Calls", style: TextStyle(color: AppColors.primary_color,fontSize: 20,),),
+            Text("Chats", style: TextStyle(color: AppColors.primarycolor,fontSize: 20,),),
+            Text("Status", style: TextStyle(color: AppColors.primarycolor,fontSize: 20,),),
+            Text("Calls", style: TextStyle(color: AppColors.primarycolor,fontSize: 20,),),
           ]),
         ),
         body: TabBarView(children: [
